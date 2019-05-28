@@ -14,24 +14,13 @@
     <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
   </head>
-  <body>
-    <script type="text/javascript">
-      var words = ["apple", "play", "bottle"];
-
-      var word = word[Math.floor(Math.random() * words.length)];
-
-      var answerZone = [];
-      for (var i = 0; i < word.length; i++) {
-        answerZone[i] = "_";
-      }
-      var lettersLeft = word.length;
-    </script>
+  <body id="css-override">
     <div class="jumbotron">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1>Hangman!</h1>
-            <h2>Let's play</h2>
+            <h1>It's Hangman! Everyone's Favorite Game!</h1>
+            <h2>Start typing letters to guess the word and win!</h2>
           </div>
           <div class="col-md-6">
             <img id="noose" src="assets\images\freeNooseDrawing.png" />
@@ -39,6 +28,15 @@
         </div>
       </div>
     </div>
+    <p>
+      The rules are simple, guess the word and win the game. You lose when the
+      man is hung.
+    </p>
+    <p>
+      Guess the right letter, you keep your lives. Guess the wrong letter and
+      you lose a life. Each life lost, draws the gallow and the hungman. When
+      you reach zero, it's game over. Click "Play Again" to start over. Enjoy!
+    </p>
   </body>
 </html>
 <!-- Psuedocode

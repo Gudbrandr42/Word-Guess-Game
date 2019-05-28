@@ -1,5 +1,16 @@
+#css-override,
+h1,
+h2,
+.jumbotron {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font: bolder;
+}
+
 body {
   background-color: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 #noose {
