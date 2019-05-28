@@ -1,6 +1,6 @@
 #css-override,
 h1,
-h2,
+h3,
 .jumbotron {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
@@ -14,6 +14,6 @@ body {
 }
 
 #noose {
-  height: 275px;
-  width: 275px;
+  height: 250px;
+  width: 250px;
 }
